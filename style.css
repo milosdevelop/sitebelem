@@ -1,0 +1,89 @@
+@charset " UTF-8 ";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --fonteh1: "Archivo", sans-serif;
+  --fontep: "Roboto", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: darkgrey;
+  background-image: url(imagens/Bandeira_do_Pará.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+header {
+  font-family: var(--fonteh1);
+  text-align: center;
+}
+h1 {
+  padding: 30px;
+  font-size: 3em;
+}
+h1 > a {
+  text-decoration: none;
+  color: rgb(30, 88, 214);
+}
+nav {
+  padding: 10px;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.425);
+  margin-bottom: 10px;
+  background-color: rgba(128, 128, 128, 0.733);
+}
+nav > a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+main {
+  margin: auto;
+  min-width: 300px;
+  max-width: 1000px;
+  background-color: white;
+}
+main img {
+  
+}
+h2 {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 20px;
+  text-align: center;
+  background-color: darkgrey;
+}
+section {
+  display: inline-block;
+  font-family: var(--fonteh1);
+}
+section > p {
+  font-family: var(--fontep);
+  padding: 10px;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  background-color: darkgray;
+}
+footer > a {
+  text-decoration: none;
+  color: white;
+}
+
+h2#bosque {
+  margin-top: 30px;
+}
+.img {
+  float: left;
+  padding: 10px;
+}
